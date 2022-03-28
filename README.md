@@ -21,9 +21,8 @@ Skip to part 2
 
 2. Select your installation folder, hit next and for Advanced Options select **Register Anaconda3 as my default Python 3.X**
 <br/><br/>
-<div>
-<img src="attachment:anaconda_options.png" width="500";base64/>
-</div>
+
+![Anaconda options](resources/anaconda_options.png)
 
 ## 2. Create a Conda Environment
 
@@ -90,9 +89,9 @@ git clone https://github.com/scientisst/scientisst-sense-api-python.git "C:\User
 2. Reopen the Anaconda Navigator and on the top bar, select your environment:
 
 <br/><br/>
-<div>
-<img src="attachment:enviornment_select.png" width="700"/>
-</div>
+
+![Anaconda environment](resources/enviornment_select.png)
+
 
 3. Once inside the environment, scroll to the Jupyter Notebook, install it and launch it!
 
