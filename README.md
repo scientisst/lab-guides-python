@@ -1,7 +1,6 @@
 # Introduction to Biosignal Acquisition 
 
-[![](https://avatars.githubusercontent.com/u/76184906?s=200&v=4)](https://scientisst.github.io/scientisst-sense-api-python/) 
-
+[![ScientISST](resources/scientisst_logo.png)](https://scientisst.com)
 
 Hi! Before attending this workshop, we would like to make sure you have **python installed** in your computer with the required software up and running. Please, **don't forget to bring your laptop** on the 1st of April.
 
