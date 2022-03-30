@@ -40,12 +40,12 @@ conda create --name scientisst-sbe-env
 
 ## 3. Installing ScientISST Sense API and Biosppy
 
-3. Activate your conda environment by running:
+1. Activate your conda environment by running:
 ```batch
 conda activate scientisst-sbe-env
 ```
 
-4. To download the required packages, you need to install pip by running:
+2. To download the required packages, you need to install pip by running:
 ```batch
 conda install pip
 ```
@@ -55,12 +55,12 @@ Procced ([y]/n)?
 ```
 Just type "y" and hit enter to continue.
 
-5. To download our respository, you need to install Git:
+3. To download our respository, you need to install Git:
 ```batch
 conda install git
 ```
 
-6. Now we can add the python packages that we'll need:
+4. Now we can add the python packages that we'll need:
 ```batch
 conda install numpy==1.16.5
 ```
@@ -79,7 +79,7 @@ pip install pylsl
 ```batch
 conda install pyqtograph
 ```
-7. Remember that folder we created before? We need it to install the ScientISST Sense API. Run:
+5. Remember that folder we created before? We need it to install the ScientISST Sense API. Run:
 ```batch
 git clone https://github.com/scientisst/scientisst-sense-api-python.git <path to your folder>
 ```
