@@ -2,9 +2,9 @@
 
 [![ScientISST](resources/scientisst_logo.png)](https://scientisst.com)
 
-Hi! Before attending this workshop, we would like to make sure you have **python installed** in your computer with the required software up and running. Please, **don't forget to bring your laptop** on the 1st of April.
+Hi! Before attending this workshop, we would like to make sure you have **Anaconda (python) installed** in your computer with the required software up and running. Please, **don't forget to bring your laptop** on the 1st of April.
 
-First, check if you have **Anaconda Navigator** and **Anaconda Prompt**. If you don't have Anaconda, go to part 1 below. Otherwise, open Anaconda Prompt and type:
+First, check if you have **Anaconda Navigator** (windows) or **Anaconda** (mac). If not, go to part 1 below. Otherwise, open Anaconda Prompt (windows) or the terminal (mac) and type:
 ```batch
 python --version
 ```
@@ -30,7 +30,7 @@ Skip to part 2
 C:\Users\ScientISST\SBE
 ```
 
-2. Then, open Anaconda Prompt and create a virtual environment:
+2. Then, open Anaconda Prompt (windows) or the terminal (mac) and create a virtual environment:
 ```batch
 conda create --name scientisst-sbe-env
 ```
@@ -49,6 +49,11 @@ conda activate scientisst-sbe-env
 ```batch
 conda install pip
 ```
+Note: from now on, when installing the packages, if the following appears:
+```batch
+Procced ([y]/n)?
+```
+Just type "y" and hit enter to continue.
 
 5. To download our respository, you need to install Git:
 ```batch
@@ -68,7 +73,12 @@ pip install pyserial
 ```batch
 pip install biosppy
 ```
-
+```batch
+pip install pylsl
+```
+```batch
+conda install pyqtograph
+```
 7. Remember that folder we created before? We need it to install the ScientISST Sense API. Run:
 ```batch
 git clone https://github.com/scientisst/scientisst-sense-api-python.git <path to your folder>
@@ -79,13 +89,13 @@ So, in my case I run:
 ```batch
 git clone https://github.com/scientisst/scientisst-sense-api-python.git "C:\Users\ScientISST\SBE"
 ```
-
+If you're using mac and want to know your folder's path, you can open a new terminal and drag the folder over it. The output string on the terminal is your path.
 
 ## 4. Opening the jupyter notebook
 
-1. Close the Anaconda Prompt (and the Anaconda Navigator).
+1. Close the Anaconda Prompt (windows) or terminal (mac) and Anaconda.
 
-2. Reopen the Anaconda Navigator and on the top bar, select your environment:
+2. Reopen Anaconda and, on the top bar, select your environment:
 
 <br/><br/>
 
@@ -128,4 +138,4 @@ This should say:
 - error: No paired device found
 ```
 
-Don't worry, it just means we have no files and devices nearby right now. See you in the workshop!
+Don't worry, it just means we have no files and devices nearby right now. That's all. See you in the workshop!
