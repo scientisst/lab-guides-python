@@ -11,16 +11,16 @@ resources_path = os.path.join(project_path, 'resources')
 
 certificates_path = os.path.join(project_path, 'certificates')
 
-certificate_template_path = os.path.join(certificates_path, 'certificate_template.pdf')
-participant_list_path = os.path.join(certificates_path, 'Participant_list.xlsx')
+certificate_template_path = os.path.join(certificates_path, 'certificate_template-14-02-2023.pdf')
+participant_list_path = os.path.join(certificates_path, 'Dados-Certificados-14-02-2023.xlsx')
 
 df_participants = pd.read_excel(participant_list_path)
 
 print("processing participant...")
 
 for index, row in df_participants.iterrows():
-    f_name = row['First names']
-    s_name = row['Second names']
+    f_name = row['First names'].replace(" ", "")
+    s_name = row['Second names'].replace(" ", "")
 
     print(f_name, s_name)
 
